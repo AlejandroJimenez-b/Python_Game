@@ -11,7 +11,6 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 
 ## Estructura del proyecto
 ​```
-python_game/
 ├── docs
 │   ├── requirements.md
 │   ├── usecases.md
