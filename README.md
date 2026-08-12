@@ -10,6 +10,7 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 - Cobertura de tests con `pytest` sobre las 3 clases principales.
 
 ## Estructura del proyecto
+
 ​```
 ├── docs
 │   ├── requirements.md
@@ -29,6 +30,7 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 └── tests
     └── test_game.py    # Tests con pytest
 ​```
+
 ## Requisitos
 
 - Python 3.x
