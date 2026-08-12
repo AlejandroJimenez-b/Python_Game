@@ -13,22 +13,19 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 
 ​```
 ├── docs
-│   ├── requirements.md
-│   ├── usecases.md
-│   └── design.md
-│
+    ├── README.md
+    ├── requirements.md
+    ├── usecases.md
+    └── design.md
 ├── frontend
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
+    ├── index.html
+    ├── styles.css
+    ├── script.js
 ├── src
-│   ├── player.py     # Clase Player
-│   ├── weapon.py      # Clase Weapon
-│   └── game.py        # Clase Game (reglas y mecánica principal)
-│
-└── tests
-    └── test_game.py    # Tests con pytest
+    ├── player.py # Clase Player
+    ├── weapon.py # Clase Weapon
+    ├── game.py # Clase Game (reglas y mecánica principal)
+    ├── test_game.py # Tests con pytest
 ​```
 
 ## Requisitos
