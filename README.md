@@ -10,27 +10,26 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 - Cobertura de tests con `pytest` sobre las 3 clases principales.
 
 ## Estructura del proyecto
+​```
 python_game/
-```
 ├── docs
-    ├── requirements.md
-    ├── usecases.md
-    └── design.md
-    
+│   ├── requirements.md
+│   ├── usecases.md
+│   └── design.md
+│
 ├── frontend
-    ├── index.html
-    ├── styles.css
-    ├── script.js
-    
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
 ├── src
-    ├── player.py # Clase Player
-    ├── weapon.py # Clase Weapon
-    ├── game.py # Clase Game (reglas y mecánica principal)
-    
-├── tests
-    ├── test_game.py # Tests con pytest
-
-```
+│   ├── player.py     # Clase Player
+│   ├── weapon.py      # Clase Weapon
+│   └── game.py        # Clase Game (reglas y mecánica principal)
+│
+└── tests
+    └── test_game.py    # Tests con pytest
+​```
 ## Requisitos
 
 - Python 3.x
