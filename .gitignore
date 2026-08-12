@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# vscode
+.vscode/
+.idea/
+
+# os
+.DS_Store
+Thumbs.db

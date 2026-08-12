@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Turn Based Game</title>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <h1>Turn Based Game</h1>
+
+        <!-- =========================
+             CONFIGURACIÓN
+        ========================== -->
+
+        <section id="setup-screen">
+
+            <h2>Preparar partida</h2>
+
+            <div class="player-setup">
+
+                <div>
+                    <h3>Jugador 1</h3>
+
+                    <input
+                        type="text"
+                        id="player-one-name"
+                        placeholder="Nombre"
+                    >
+
+                    <select id="player-one-weapon">
+                        <option value="">Selecciona un arma</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h3>Jugador 2</h3>
+
+                    <input
+                        type="text"
+                        id="player-two-name"
+                        placeholder="Nombre"
+                    >
+
+                    <select id="player-two-weapon">
+                        <option value="">Selecciona un arma</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button id="start-game">
+                Comenzar partida
+            </button>
+
+            <p id="setup-message"></p>
+
+        </section>
+
+
+        <!-- =========================
+             COMBATE
+        ========================== -->
+
+        <section id="combat-screen" class="hidden">
+
+            <div class="players">
+
+                <div class="player-card">
+
+                    <h2 id="name-one"></h2>
+
+                    <p>
+                        Vida:
+                        <span id="health-one"></span>
+                    </p>
+
+                    <p>
+                        Arma:
+                        <span id="weapon-one"></span>
+                    </p>
+
+                    <div class="actions">
+
+                        <button data-player="one" data-action="attack">
+                            Atacar
+                        </button>
+
+                        <button data-player="one" data-action="defend">
+                            Defender
+                        </button>
+
+                        <button data-player="one" data-action="dodge">
+                            Esquivar
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="player-card">
+
+                    <h2 id="name-two"></h2>
+
+                    <p>
+                        Vida:
+                        <span id="health-two"></span>
+                    </p>
+
+                    <p>
+                        Arma:
+                        <span id="weapon-two"></span>
+                    </p>
+
+                    <div class="actions">
+
+                        <button data-player="two" data-action="attack">
+                            Atacar
+                        </button>
+
+                        <button data-player="two" data-action="defend">
+                            Defender
+                        </button>
+
+                        <button data-player="two" data-action="dodge">
+                            Esquivar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 RESULTADO
+            ========================== -->
+
+            <section id="turn-result">
+
+                <h2>Resultado del turno</h2>
+
+                <p id="result-message">
+                    Elige una acción.
+                </p>
+
+            </section>
+
+
+            <!-- =========================
+                 GANADOR
+            ========================== -->
+
+            <section id="winner-screen" class="hidden">
+
+                <h2 id="winner-message"></h2>
+
+                <button id="restart-game">
+                    Nueva partida
+                </button>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
