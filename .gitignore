@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# entornos virtuales
+venv/
+.venv/
+
+# variables de entorno
+.env
+
 # testing
 .pytest_cache/
 .coverage
