@@ -12,7 +12,7 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 ## Estructura del proyecto
 
 
-
+    ```
     ├── docs
 
         ├── README.md
@@ -34,8 +34,7 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
     
     ├── tests
             └── test_game.py # Tests con pytest
-    
-​
+    ```
 
 ## Requisitos
 
