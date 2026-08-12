@@ -12,24 +12,28 @@ Minijuego de batalla por turnos en consola, hecho en Python como proyecto de apr
 ## Estructura del proyecto
 
 ​```
-├── docs
+
+    ├── docs
 
     ├── README.md
     ├── requirements.md
     ├── usecases.md
     └── design.md
-├── frontend
+    
+    ├── frontend
 
     ├── index.html
     ├── styles.css
     ├── script.js
-├── src
+    
+    ├── src
 
     ├── player.py # Clase Player
     ├── weapon.py # Clase Weapon
     ├── game.py # Clase Game (reglas y mecánica principal)
-├── tests
-    └── test_game.py # Tests con pytest
+    
+    ├── tests
+        └── test_game.py # Tests con pytest
     
 ​```
 
